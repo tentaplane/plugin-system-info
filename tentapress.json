@@ -1,0 +1,19 @@
+{
+    "id": "tentapress/system-info",
+    "name": "System Info",
+    "description": "Diagnostics and environment information for TentaPress.",
+    "version": "0.1.0",
+    "provider": "TentaPress\\SystemInfo\\SystemInfoServiceProvider",
+    "requires": [],
+    "admin": {
+        "menus": [
+            {
+                "label": "System Info",
+                "route": "tp.system-info",
+                "capability": "manage_plugins",
+                "icon": "info",
+                "position": 95
+            }
+        ]
+    }
+}

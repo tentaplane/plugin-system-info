@@ -1,0 +1,24 @@
+{
+    "name": "tentapress/system-info",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "tentapress/system": "*",
+        "tentapress/admin-shell": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TentaPress\\SystemInfo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TentaPress\\SystemInfo\\SystemInfoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
