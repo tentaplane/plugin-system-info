@@ -2,7 +2,7 @@
     "id": "tentapress/system-info",
     "name": "System Info",
     "description": "Diagnostics, environment information and plugins list for TentaPress.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "provider": "TentaPress\\SystemInfo\\SystemInfoServiceProvider",
     "requires": [],
     "admin": {
@@ -10,7 +10,7 @@
             {
                 "label": "System Info",
                 "route": "tp.system-info",
-                "capability": "manage_plugins",
+                "capability": "view_system_info",
                 "icon": "info",
                 "position": 95
             },
